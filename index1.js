@@ -10,7 +10,7 @@ const fs=require('fs');
 fs.writeFileSync("om1.txt","code step by step");
 console.log(__dirname);
 console.log(__filename);
-const http = require('http');
+const http = require('http'); 
 
 
 http.createServer((req,res)=>{
