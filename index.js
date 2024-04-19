@@ -1,4 +1,4 @@
 const color = require('colors');
 console.log("hello".red);
-console.log("omprakash".bgBlue);
-console.log("omprakash".bgRed);
+console.log("ompra kash".bgBlue);
+console.log("om patel".bgRed);
