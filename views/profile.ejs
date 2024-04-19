@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Profile page</title>
+        <style>
+            h1{color:red;}
+        </style>
+    </head>
+    <body>
+        <%-include('common/header')%>
+        <h1>this is profile page</h1>
+        <h2>welecome to mr. <%= user.name%></h2>
+        <h3>Email : <%= user.email %></h3>
+        <h4>City : <%= user.city %></h4>
+        <ul>
+            <% user.skills.forEach((item)=>{ %>
+                <li> <%= item %></li>
+
+            <% }) %>
+
+
+        </ul>
+    </body>
+</html>
